@@ -5,6 +5,10 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="about.css">
+<link rel="stylesheet" type="text/css" href="home.css">
+
+
 </head>
 <body>
 
@@ -16,15 +20,9 @@
     
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
-            <a class="nav-link" href="login.html">Login</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="login.html">Create Account</a>
-            </li>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Home</a>
+              </li>
             <li class="nav-item">
                 <a class="nav-link" href="login.html">Withdraw</a>
             </li>
@@ -35,13 +33,59 @@
                 <a class="nav-link" href="login.html">Payments</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
         </div>
     </nav>
+    <div>
+        <h3>Current Amount:</h3>
+        <h1>500$</h1>
 
+        <!-- <button id="btn">RESTART</button> -->
+        <div id="progress-bar-container">
+		    <div class="progress-bar-child progress"></div>
+		    <div class="progress-bar-child shrinker timelapse"></div>
+        </div>
+    </div>
+    
 </body>
+
+
+    <footer class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>Follow Us</h4>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>Instagram</h4>
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <!--Column1-->
+              <div class="footer-pad">
+                <h4>Youtube</h4>
+                
+              </div>
+            </div>
+              <div class="col-md-3">
+                  <h4>Facebook</h4>			
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12 copy">
+                  <p class="text-center">&copy; Copyright 2020 - Stars Bank Inc.  All rights reserved.</p>
+              </div>
+          </div>
+      
+      
+        </div>
+        </div>
+      </footer>
 </html>
 

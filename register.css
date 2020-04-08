@@ -1,0 +1,23 @@
+body {
+    background-image : url('bk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-group {
+    width: 40%;
+    position: relative;
+    top: 100px;
+    left: 5%;
+}
+
+.btn-primary {
+    position: relative;
+    margin-top: 200px;
+    left: 16%;
+    width: 15%;
+}
+a {
+    position: relative;
+    left: 10%;
+}
