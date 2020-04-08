@@ -1,0 +1,23 @@
+body {
+    background-image : url('bk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    position: relative;
+    top: 200px;
+    width: 250px;
+    left: 550px;
+}
+.btn-secondary {
+    top: 250px;
+}
+
+h3 {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 230px;
+    font-size: 15;
+    left: 590px;
+}

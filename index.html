@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="about.css">
+
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">STARS BANK</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Home</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="About.html">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="login.html">Help</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+<body>
+    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="login()">Log in</button>
+    <script type="text/javascript">
+    function login() {
+        window.location.href = "login.html";
+    };
+    </script>
+    <h3>Do not have an account?</h3>
+    <button type="button" class="btn btn-secondary btn-lg btn-block" onclick="create()">Create Account</button>
+    <script type="text/javascript">
+        function login() {
+            window.location.href = "createAccount.html";
+    };
+    </script>
+</body>
+
+<footer class="mainfooter" role="contentinfo">
+    <div class="footer-middle">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <!--Column1-->
+          <div class="footer-pad">
+            <h4>Follow Us</h4>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <!--Column1-->
+          <div class="footer-pad">
+            <h4>Instagram</h4>
+            
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <!--Column1-->
+          <div class="footer-pad">
+            <h4>Youtube</h4>
+            
+          </div>
+        </div>
+          <div class="col-md-3">
+              <h4>Facebook</h4>			
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12 copy">
+              <p class="text-center">&copy; Copyright 2020 - Stars Bank Inc.  All rights reserved.</p>
+          </div>
+      </div>
+  
+  
+    </div>
+    </div>
+  </footer>
+</html>
